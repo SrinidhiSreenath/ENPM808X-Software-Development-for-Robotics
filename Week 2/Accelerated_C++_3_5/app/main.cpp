@@ -32,7 +32,7 @@
  *   @return average class grade as double
  */
 
-double getAverageHomeworkGrade(std::vector<double> homeworkGrades) {
+double getAverageHomeworkGrade(const std::vector<double>& homeworkGrades) {
   double average = 0.0;  ///< Average grade initialized
   // Accumulate all grades into average
   for (const auto& grade : homeworkGrades) {
@@ -52,8 +52,8 @@ double getAverageHomeworkGrade(std::vector<double> homeworkGrades) {
  *   @return final student grade as double
  */
 
-double getFinalGrade(double averageHomework, double midTerm, double finalTerm) {
-
+double getFinalGrade(const double& averageHomework, const double& midTerm,
+                     const double& finalTerm) {
   double final = 0.2 * midTerm + 0.4 * finalTerm + 0.4 * averageHomework;  ///< Define final grade variable
   return final;
 }
