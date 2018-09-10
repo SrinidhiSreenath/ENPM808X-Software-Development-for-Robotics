@@ -61,6 +61,7 @@ int main()
       << std::endl;
   readInputStream(std::cin, inputNumbers);  //Function call for Input stream
 
+  // Print concatenated string of entered strings or print message if nothing was entered.
   if (!inputNumbers.empty()) {
     std::cout << std::endl << "Average of the entered numbers is: "
               << getAverage(inputNumbers) << std::endl << std::endl;  // Function call to get average of the entered numbers
