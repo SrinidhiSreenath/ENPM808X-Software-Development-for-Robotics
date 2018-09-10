@@ -5,7 +5,6 @@
 .DS_Store
 
 # Build artifacts
-build/
 
 # Python
 *.pyc
