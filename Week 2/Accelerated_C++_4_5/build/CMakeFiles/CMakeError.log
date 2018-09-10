@@ -1,0 +1,26 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2675/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2675.dir/build.make CMakeFiles/cmTC_d2675.dir/build
+make[1]: Entering directory '/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_d2675.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d2675/fast' failed
+make: *** [cmTC_d2675/fast] Error 2
+
+
+
+Detecting CXX [-std=c++14] compiler features failed to compile with the following output:
+Change Dir: /home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67d78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67d78.dir/build.make CMakeFiles/cmTC_67d78.dir/build
+make[1]: Entering directory '/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_67d78.dir/build.make:64: *** target pattern contains no '%'.  Stop.
+make[1]: Leaving directory '/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_67d78/fast' failed
+make: *** [cmTC_67d78/fast] Error 2
+
+
+
