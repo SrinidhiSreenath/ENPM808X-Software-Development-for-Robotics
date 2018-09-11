@@ -6,7 +6,7 @@ C++ project to  compute and keep a track of final grades of several students at 
 
 ## Standard install via command-line
 ```
-git clone git@github.com:SrinidhiSreenath/ENPM808X-Software-Development-for-Robotics.git
+git clone git@github.com:SrinidhiSreenath/ENPM808X-Software-Development-for-Robotics.git --branch week2
 cd <path to repository>/Week\ 2/Accelerated_C++_3_5/
 mkdir build
 cd build
@@ -23,7 +23,7 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone git@github.com:SrinidhiSreenath/ENPM808X-Software-Development-for-Robotics.git
+git clone git@github.com:SrinidhiSreenath/ENPM808X-Software-Development-for-Robotics.git --branch week2
 ```
 
 In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of Accelerated_C++_3_5
