@@ -52,7 +52,7 @@ unfold Build Targets, double click on "all" to build all projects.
 
 ## Run
 
-1. In Eclipse, right click on the boilerplate-eclipse in Project Explorer,
+1. In Eclipse, right click on the AcceleratedC++3-5-eclipse in Project Explorer,
 select Run As -> Local C/C++ Application
 
 2. Choose the **shell-app** binary to run
@@ -64,7 +64,7 @@ select Run As -> Local C/C++ Application
 1. Set breakpoint in source file (i.e. double click in the left margin on the line you want 
 the program to break).
 
-2. In Eclipse, right click on the boilerplate-eclipse in Project Explorer, select Debug As -> 
+2. In Eclipse, right click on the AcceleratedC++3-5-eclipse in Project Explorer, select Debug As -> 
 Local C/C++ Application, choose the **shell-app** binary to run.
 
 3. If prompt to "Confirm Perspective Switch", select yes.
