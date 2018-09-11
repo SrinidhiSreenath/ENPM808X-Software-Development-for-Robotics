@@ -112,7 +112,7 @@ int main()
   std::cout << std::endl;
   // Print students and their respective grades
   for (size_t iter = 0; iter < studentNames.size(); iter++) {
-    std::cout << "Student name: " << studentNames[iter] << " Final grade: "
+    std::cout << "Student name: " << studentNames[iter] << ", Final grade: "
         << studentFinalGrade[iter] << std::endl;
   }
 
