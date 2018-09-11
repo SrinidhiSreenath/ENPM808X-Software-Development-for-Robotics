@@ -2,7 +2,7 @@
 
 ## Overview
 
-C++ project to  compute and keep a track of final grades of several students at once.
+C++ project to calculate the average of the numbers stored in a vector.
 
 ## Standard install via command-line
 ```
