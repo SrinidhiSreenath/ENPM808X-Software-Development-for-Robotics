@@ -92,7 +92,7 @@ int main()
     // Total number of Homeworks are only 3
     std::vector<double> gradeList;  ///< local Vector to hold student's homework grades (double)
     for (size_t j = 0; j < 3; j++) {
-      double grade;
+      double grade; ///< local variable to capture user input
       std::cout << "Enter homework " << j + 1
           << " grade"
           << std::endl;
