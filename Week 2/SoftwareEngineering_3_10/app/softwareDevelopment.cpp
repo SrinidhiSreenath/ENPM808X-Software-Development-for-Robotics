@@ -1,5 +1,5 @@
 /**
- *  @file    softwareDevelopment.cpp
+ *  @file    SoftwareDevelopment.cpp
  *  @author  Srinidhi Sreenath (SrinidhiSreenath)
  *  @date    9/10/2018
  *  @version 1.0
@@ -8,7 +8,7 @@
  *
  *  @section DESCRIPTION
  *
- *  Source file for class softwareDevelopment. The class supports course
+ *  Source file for class SoftwareDevelopment. The class supports course
  *  grading. It stores students and their corresponding grades. Member
  *  functions assist in listing the students and their grades, changing a
  *  student's grade, obtaining a student's grade and calculating average
@@ -20,12 +20,12 @@
 #include "softwareDevelopment.hpp"
 
 /**
- *   @brief  Default constructor for softwareDevelopment
+ *   @brief  Default constructor for SoftwareDevelopment
  *           Defines custom students and sets all students' grade to 0.0
  *   @param  none
  *   @return void
  */
-softwareDevelopment::softwareDevelopment() {
+SoftwareDevelopment::SoftwareDevelopment() {
   std::cout << "Course grading initialized" << std::endl;
 
   //Defining custom input. Students are 10, 20, 30, 40, 50. All grades are initialized to 0.0
@@ -36,12 +36,12 @@ softwareDevelopment::softwareDevelopment() {
 }
 
 /**
- *   @brief  Destructor for softwareDevelopment
+ *   @brief  Destructor for SoftwareDevelopment
  *
  *   @param  none
  *   @return void
  */
-softwareDevelopment::~softwareDevelopment() {
+SoftwareDevelopment::~SoftwareDevelopment() {
 }
 
 /**
@@ -50,7 +50,7 @@ softwareDevelopment::~softwareDevelopment() {
  *   @param  none
  *   @return void
  */
-void softwareDevelopment::listStudentAndGrades() {
+void SoftwareDevelopment::listStudentAndGrades() {
   std::cout << "List of students and their grades" << std::endl;
 
   // Iterate over the list of students and print student and grade info
@@ -68,7 +68,7 @@ void softwareDevelopment::listStudentAndGrades() {
  *   @param  newGrade is the new grade as double
  *   @return void
  */
-void softwareDevelopment::changeStudentGrade(const int& studentNumber,
+void SoftwareDevelopment::changeStudentGrade(const int& studentNumber,
                                              const double& newGrade) {
   std::vector<int>::iterator it;  ///< iterator to a vector of int values i.e student_
 
@@ -90,7 +90,7 @@ void softwareDevelopment::changeStudentGrade(const int& studentNumber,
  *   @param  studentNumber is the int value of student whose grade is to changed
  *   @return desired student's grade as double
  */
-double softwareDevelopment::getStudentGrade(const int& studentNumber) {
+double SoftwareDevelopment::getStudentGrade(const int& studentNumber) {
   //Find which student's grade is to be changed and obtain the corresponding vector index
   std::vector<int>::iterator it;
   it = std::find(student_.begin(), student_.end(), studentNumber);
@@ -111,7 +111,7 @@ double softwareDevelopment::getStudentGrade(const int& studentNumber) {
  *   @param  none
  *   @return average grade of class as double
  */
-double softwareDevelopment::getClassAverageGrade() {
+double SoftwareDevelopment::getClassAverageGrade() {
   double average;  ///< local variable to store average value
 
   //Accumulate grades into local variable

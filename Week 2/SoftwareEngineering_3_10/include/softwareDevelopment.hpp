@@ -22,14 +22,14 @@
 /**
  *  @brief Class that supports course grading for a course
  */
-class softwareDevelopment {
+class SoftwareDevelopment {
  private:
   std::vector<int> student_;  ///< Vector to hold students referred by integers
   std::vector<double> studentGrade_;  ///< Vector to hold student grades (type double)
 
  public:
-  softwareDevelopment();    // Default Constructor
-  ~softwareDevelopment();   // Destructor
+  SoftwareDevelopment();    // Default Constructor
+  ~SoftwareDevelopment();   // Destructor
 
   void listStudentAndGrades();  // Prints all students and their corresponding grade
   void changeStudentGrade(const int& studentNumber, const double& newGrade);  // Change a given student's grade to desired value

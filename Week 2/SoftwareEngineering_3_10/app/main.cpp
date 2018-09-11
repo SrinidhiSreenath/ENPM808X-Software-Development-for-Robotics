@@ -23,7 +23,7 @@
 int main()
 {
   // Create an object of the class
-  softwareDevelopment fallSemester;
+  SoftwareDevelopment fallSemester;
 
   std::cout << "*** Initial student grades ***" << std::endl;
   fallSemester.listStudentAndGrades();
