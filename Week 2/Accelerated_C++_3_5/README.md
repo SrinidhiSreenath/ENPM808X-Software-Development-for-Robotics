@@ -38,7 +38,7 @@ cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLI
 ## Import
 
 Open Eclipse, go to File -> Import -> General -> Existing Projects into Workspace -> 
-Select "boilerplate-eclipse" directory created previously as root directory -> Finish
+Select "AcceleratedC++3-5-eclipse" directory created previously as root directory -> Finish
 
 # Edit
 
@@ -47,7 +47,7 @@ Source files may be edited under the "[Source Directory]" label in the Project E
 
 ## Build
 
-To build the project, in Eclipse, unfold boilerplate-eclipse project in Project Explorer,
+To build the project, in Eclipse, unfold AcceleratedC++3-5-eclipse project in Project Explorer,
 unfold Build Targets, double click on "all" to build all projects.
 
 ## Run
@@ -55,7 +55,7 @@ unfold Build Targets, double click on "all" to build all projects.
 1. In Eclipse, right click on the boilerplate-eclipse in Project Explorer,
 select Run As -> Local C/C++ Application
 
-2. Choose the binaries to run (e.g. shell-app, cpp-test for unit testing)
+2. Choose the **shell-app** binary to run
 
 
 ## Debug
@@ -65,7 +65,7 @@ select Run As -> Local C/C++ Application
 the program to break).
 
 2. In Eclipse, right click on the boilerplate-eclipse in Project Explorer, select Debug As -> 
-Local C/C++ Application, choose the binaries to run (e.g. shell-app).
+Local C/C++ Application, choose the **shell-app** binary to run.
 
 3. If prompt to "Confirm Perspective Switch", select yes.
 
