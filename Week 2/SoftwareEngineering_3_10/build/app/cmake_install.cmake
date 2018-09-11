@@ -1,4 +1,4 @@
-# Install script for directory: /home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/SoftwareEngineering_3_10/app
+# Install script for directory: /home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/SoftwareEngineering_3_10/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
