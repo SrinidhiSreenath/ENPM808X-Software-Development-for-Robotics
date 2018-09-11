@@ -26,7 +26,7 @@ cd ~/workspace
 git clone git@github.com:SrinidhiSreenath/ENPM808X-Software-Development-for-Robotics.git
 ```
 
-In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of cpp-boilerplate
+In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of Accelerated_C++_3_5
 
 ```
 cd ~/workspace
