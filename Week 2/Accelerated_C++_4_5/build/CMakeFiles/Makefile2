@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5"
+CMAKE_SOURCE_DIR = "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build"
+CMAKE_BINARY_DIR = "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build"
 
 #=============================================================================
 # Directory level rules for directory app
@@ -84,7 +84,7 @@ app/preinstall:
 app/CMakeFiles/shell-app.dir/all:
 	$(MAKE) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/depend
 	$(MAKE) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" --progress-num=4,5 "Built target shell-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" --progress-num=4,5 "Built target shell-app"
 .PHONY : app/CMakeFiles/shell-app.dir/all
 
 # Include target in all.
@@ -94,9 +94,9 @@ all: app/CMakeFiles/shell-app.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/shell-app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/shell-app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" 0
 .PHONY : app/CMakeFiles/shell-app.dir/rule
 
 # Convenience name for target.
@@ -139,7 +139,7 @@ test/preinstall:
 test/CMakeFiles/cpp-test.dir/all:
 	$(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/depend
 	$(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" --progress-num=1,2,3 "Built target cpp-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" --progress-num=1,2,3 "Built target cpp-test"
 .PHONY : test/CMakeFiles/cpp-test.dir/all
 
 # Include target in all.
@@ -149,9 +149,9 @@ all: test/CMakeFiles/cpp-test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/cpp-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" 3
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/cpp-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/cpp-test.dir/rule
 
 # Convenience name for target.

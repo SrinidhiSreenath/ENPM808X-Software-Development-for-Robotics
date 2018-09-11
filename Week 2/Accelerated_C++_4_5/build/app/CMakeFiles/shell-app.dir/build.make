@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5"
+CMAKE_SOURCE_DIR = "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build"
+CMAKE_BINARY_DIR = "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build"
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/shell-app.dir/depend.make
@@ -59,16 +59,16 @@ include app/CMakeFiles/shell-app.dir/flags.make
 
 app/CMakeFiles/shell-app.dir/main.cpp.o: app/CMakeFiles/shell-app.dir/flags.make
 app/CMakeFiles/shell-app.dir/main.cpp.o: ../app/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/shell-app.dir/main.cpp.o"
-	cd "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/app" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell-app.dir/main.cpp.o -c "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/app/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/shell-app.dir/main.cpp.o"
+	cd "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/app" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell-app.dir/main.cpp.o -c "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/app/main.cpp"
 
 app/CMakeFiles/shell-app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell-app.dir/main.cpp.i"
-	cd "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/app" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/app/main.cpp" > CMakeFiles/shell-app.dir/main.cpp.i
+	cd "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/app" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/app/main.cpp" > CMakeFiles/shell-app.dir/main.cpp.i
 
 app/CMakeFiles/shell-app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell-app.dir/main.cpp.s"
-	cd "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/app" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/app/main.cpp" -o CMakeFiles/shell-app.dir/main.cpp.s
+	cd "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/app" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/app/main.cpp" -o CMakeFiles/shell-app.dir/main.cpp.s
 
 app/CMakeFiles/shell-app.dir/main.cpp.o.requires:
 
@@ -91,8 +91,8 @@ shell__app_EXTERNAL_OBJECTS =
 app/shell-app: app/CMakeFiles/shell-app.dir/main.cpp.o
 app/shell-app: app/CMakeFiles/shell-app.dir/build.make
 app/shell-app: app/CMakeFiles/shell-app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable shell-app"
-	cd "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/app" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shell-app.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable shell-app"
+	cd "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/app" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shell-app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/shell-app.dir/build: app/shell-app
@@ -104,10 +104,10 @@ app/CMakeFiles/shell-app.dir/requires: app/CMakeFiles/shell-app.dir/main.cpp.o.r
 .PHONY : app/CMakeFiles/shell-app.dir/requires
 
 app/CMakeFiles/shell-app.dir/clean:
-	cd "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/app" && $(CMAKE_COMMAND) -P CMakeFiles/shell-app.dir/cmake_clean.cmake
+	cd "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/app" && $(CMAKE_COMMAND) -P CMakeFiles/shell-app.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/shell-app.dir/clean
 
 app/CMakeFiles/shell-app.dir/depend:
-	cd "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5" "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/app" "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build" "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/app" "/home/srinidhi/GitHub/My Repos/ENPM808X: Software Development for Robotics/Week 2/Accelerated_C++_4_5/build/app/CMakeFiles/shell-app.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5" "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/app" "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build" "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/app" "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 2/Accelerated_C++_4_5/build/app/CMakeFiles/shell-app.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : app/CMakeFiles/shell-app.dir/depend
 
