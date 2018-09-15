@@ -1,65 +1,68 @@
 /**
  *  @file    main.cpp
  *  @author  Srinidhi Sreenath (SrinidhiSreenath)
- *  @date    9/10/2018
+ *  @date    9/15/2018
  *  @version 1.0
  *
- *  @brief ENPM808X, Week 2 assignment, Excercize 3-10 Software Engineering
+ *  @brief ENPM808X, Week 3 assignment, Excercize 9-4 Software Engineering
  *
  *  @section DESCRIPTION
  *
- *  This is a source file to use the class softwareDevelopment. The program
- *  changes the grades of students in the course and obtains average GPA of
- *  the class (total students)
+ *  This file contains the code to extract a new function that returns 
+ *  the position of the beginning of a given string in a given text.
  *
  */
 
 //CPP Headers
 #include <iostream>
+#include <string>
 
-//Class source CPP file
-#include "softwareDevelopment.cpp"
+/**
+ *   @brief  Returns the position of string in the text
+ *
+ *   @param  text is the master string 
+ *   @param  stringToSearch is string to be searched in the text
+ *   @return start position of string in text as size_t
+ */
+
+size_t getPositionInText(const std::string& text, const std::string& stringToSearch){
+    // iterate through the text string
+  for(size_t i=0; i < text.size(); i++){
+    bool found = true;  ///< flag to check if string is in text
+    for(size_t j=0; j < stringToSearch.size(); j++){
+      if(text[i+j] != stringToSearch[j]){
+        found = false; // flag is false if the entire string isn't in position when start of string is found in text
+      }
+    }
+    if (found) {
+       return i;
+    }
+  }
+  return 0;
+}
+
+/**
+ *   @brief  Prints the position of string in the given text
+ *
+ *   @param  text is the master string 
+ *   @param  stringToSearch is string to be searched in the text
+ *   @return void
+ */
+
+void printPosition(const std::string& text, const std::string& stringToSearch){
+
+  size_t position = getPositionInText(text, stringToSearch); //Function call to get position of string in text
+
+  std::cout << "The position of the string in the text is " << position << std::endl; 
+}
+ 
 
 int main()
 {
-  // Create an object of the class
-  SoftwareDevelopment fallSemester;
+  std::string text = "Srinidhi"; ///< text string that contains the string to be searched for
+  std::string stringToSearch = "id"; ///< string to search for in text string
 
-  std::cout << "*** Initial student grades ***" << std::endl;
-  fallSemester.listStudentAndGrades();
-  std::cout << std::endl;
-
-  // Change all student grades
-  fallSemester.changeStudentGrade(10, 3.7);
-  fallSemester.changeStudentGrade(20, 2.9);
-  fallSemester.changeStudentGrade(30, 4.0);
-  fallSemester.changeStudentGrade(40, 3.58);
-  fallSemester.changeStudentGrade(50, 2.2);
-
-  // Error thrown when trying to change the grade of a non-existent student
-  std::cout
-      << "*** When trying to change the grade of a non-existent student ***"
-            << std::endl;
-  fallSemester.changeStudentGrade(15, 3.7);
-  std::cout << std::endl;
-
-  //Access grade after its changed
-  std::cout
-      << "*** Accessing a student's (40) grade *** \nThe grade of student 40 is now: "
-            << fallSemester.getStudentGrade(40) << std::endl;
-
-  // List all students and their grades after changing
-  std::cout << std::endl << "*** Student grades after changing ***"
-            << std::endl;
-  fallSemester.listStudentAndGrades();
-  std::cout << std::endl;
-
-  // Get average GPA of class (total students)
-  double averageGPA = fallSemester.getClassAverageGrade();
-
-  std::cout << "The average of the class is: " << averageGPA << std::endl;
-
-  std::cout << std::endl;
+ printPosition(text, stringToSearch); // Function call that prints the position of the string in the text
 
   return 0;
 }
