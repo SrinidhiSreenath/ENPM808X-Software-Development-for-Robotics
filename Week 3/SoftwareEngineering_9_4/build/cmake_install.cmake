@@ -35,7 +35,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 3/SoftwareEngineering_9_4/build/app/cmake_install.cmake")
-  include("/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 3/SoftwareEngineering_9_4/build/test/cmake_install.cmake")
 
 endif()
 

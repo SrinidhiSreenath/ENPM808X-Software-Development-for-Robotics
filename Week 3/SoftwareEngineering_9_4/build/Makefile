@@ -123,19 +123,6 @@ shell-app/fast:
 	$(MAKE) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/build
 .PHONY : shell-app/fast
 
-#=============================================================================
-# Target rules for targets named cpp-test
-
-# Build rule for target.
-cpp-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cpp-test
-.PHONY : cpp-test
-
-# fast build rule for target.
-cpp-test/fast:
-	$(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/build
-.PHONY : cpp-test/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -145,7 +132,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... shell-app"
-	@echo "... cpp-test"
 .PHONY : help
 
 
