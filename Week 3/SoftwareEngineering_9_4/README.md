@@ -7,7 +7,7 @@ C++ project that defines a new function that returns the position of the beginni
 ## Standard install via command-line
 ```
 git clone git@github.com:SrinidhiSreenath/ENPM808X-Software-Development-for-Robotics.git --branch week3
-cd <path to repository>/Week\ 2/SoftwareEngineering_9_4/
+cd <path to repository>/Week\ 3/SoftwareEngineering_9_4/
 mkdir build
 cd build
 cmake ..
