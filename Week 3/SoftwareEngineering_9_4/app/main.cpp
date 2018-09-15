@@ -24,14 +24,14 @@
  *   @param  stringToSearch is string to be searched in the text
  *   @return start position of string in text as size_t
  */
-
 size_t getPositionInText(const std::string& text, const std::string& stringToSearch){
     // iterate through the text string
   for(size_t i=0; i < text.size(); i++){
     bool found = true;  ///< flag to check if string is in text
     for(size_t j=0; j < stringToSearch.size(); j++){
       if(text[i+j] != stringToSearch[j]){
-        found = false; // flag is false if the entire string isn't in position when start of string is found in text
+        found = false;  // flag is false if the entire string isn't
+                        // in position when start of string is found in text
       }
     }
     if (found) {
@@ -48,21 +48,21 @@ size_t getPositionInText(const std::string& text, const std::string& stringToSea
  *   @param  stringToSearch is string to be searched in the text
  *   @return void
  */
-
 void printPosition(const std::string& text, const std::string& stringToSearch){
 
   size_t position = getPositionInText(text, stringToSearch); //Function call to get position of string in text
 
-  std::cout << "The position of the string in the text is " << position << std::endl; 
+  std::cout << "The position of the string: " << stringToSearch
+            << " in the text: " << text << " is " << position << std::endl;
 }
  
 
 int main()
 {
-  std::string text = "Srinidhi"; ///< text string that contains the string to be searched for
-  std::string stringToSearch = "id"; ///< string to search for in text string
+  std::string text = "Srinidhi";  ///< text string that contains the string to be searched for
+  std::string stringToSearch = "idhi";  ///< string to search for in text string
 
- printPosition(text, stringToSearch); // Function call that prints the position of the string in the text
+  printPosition(text, stringToSearch);  // Function call that prints the position of the string in the text
 
   return 0;
 }
