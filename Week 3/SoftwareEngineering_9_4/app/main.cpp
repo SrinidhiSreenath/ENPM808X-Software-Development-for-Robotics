@@ -39,12 +39,10 @@ size_t getPositionInText(const std::string& text,
       }
     }
     if (found) {
-       return i;
-    } else {
-      std::cout << "String not found" << std::endl;
-      return 0;
+      return i + 1;
     }
   }
+  return 0;
 }
 
 /**
@@ -57,13 +55,15 @@ size_t getPositionInText(const std::string& text,
 void printPosition(const std::string& text, const std::string& stringToSearch) {
   size_t position = getPositionInText(text, stringToSearch);  // Function call
 
+  if (position != 0) {
   std::cout << "The position of the string: " << stringToSearch
-            << " in the text: " << text << " is " << position << std::endl;
+        << " in the text: " << text << " is " << position - 1 << std::endl;
+  }
 }
 
 int main() {
   std::string text = "Srinidhi";  ///< text string
-  std::string stringToSearch = "idhi";  ///< string to search for in text string
+  std::string stringToSearch = "nidhi";  ///< string to search in text string
 
   printPosition(text, stringToSearch);  // Function call to print position
 
