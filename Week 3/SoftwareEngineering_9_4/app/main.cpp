@@ -40,9 +40,11 @@ size_t getPositionInText(const std::string& text,
     }
     if (found) {
        return i;
+    } else {
+      std::cout << "String not found" << std::endl;
+      return 0;
     }
   }
-  return 0;
 }
 
 /**
