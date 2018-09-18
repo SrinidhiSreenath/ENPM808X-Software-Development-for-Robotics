@@ -47,6 +47,8 @@ void printPosition(const std::string& text, const std::string& stringToSearch) {
   if (position != std::string::npos) {
   std::cout << "The position of the string: " << stringToSearch
         << " in the text: " << text << " is " << position << std::endl;
+  } else {
+    std::cout << "String was not found in the text" << std::endl;
   }
 }
 
