@@ -29,20 +29,9 @@
  */
 size_t getPositionInText(const std::string& text,
                          const std::string& stringToSearch) {
-    // iterate through the text string
-  for (size_t i = 0; i < text.size(); i++) {
-    bool found = true;  ///< flag to check if string is in text
-    for (size_t j = 0; j < stringToSearch.size(); j++) {
-      if (text[i + j] != stringToSearch[j]) {
-        found = false;  // flag is false if the entire string isn't
-                        // in position when start of string is found in text
-      }
-    }
-    if (found) {
-      return i + 1;
-    }
-  }
-  return 0;
+  // string member search function call
+  std::size_t found = text.find(stringToSearch);
+  return found;
 }
 
 /**
@@ -55,9 +44,9 @@ size_t getPositionInText(const std::string& text,
 void printPosition(const std::string& text, const std::string& stringToSearch) {
   size_t position = getPositionInText(text, stringToSearch);  // Function call
 
-  if (position != 0) {
+  if (position != std::string::npos) {
   std::cout << "The position of the string: " << stringToSearch
-        << " in the text: " << text << " is " << position - 1 << std::endl;
+        << " in the text: " << text << " is " << position << std::endl;
   }
 }
 
