@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 3/SoftwareEngineering_9_4/build/app",
-  "command": "/usr/bin/c++     -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c \"/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 3/SoftwareEngineering_9_4/app/main.cpp\"",
-  "file": "/home/srinidhi/GitHub/My Repos/ENPM808X-Software-Development-for-Robotics/Week 3/SoftwareEngineering_9_4/app/main.cpp"
-}
-]
