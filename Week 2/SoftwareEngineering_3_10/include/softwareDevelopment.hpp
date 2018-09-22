@@ -16,6 +16,7 @@
 #define WEEK_2_SOFTWAREENGINEERING_3_10_INCLUDE_SOFTWAREDEVELOPMENT_HPP_
 
 // CPP Headers
+#include <iostream>
 #include <vector>
 #include <algorithm>
 
