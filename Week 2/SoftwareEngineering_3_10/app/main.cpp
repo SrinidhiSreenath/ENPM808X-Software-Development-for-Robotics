@@ -18,7 +18,7 @@
 #include <iostream>
 
 //Class source CPP file
-#include "softwareDevelopment.cpp"
+#include "softwareDevelopment.hpp"
 
 int main()
 {
