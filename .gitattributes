@@ -1,3 +1,0 @@
-# Ignore CMakeLists.txt
-* linguist-vendored
-*.cpp .hpp linguist-vendored=false
